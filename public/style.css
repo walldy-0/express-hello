@@ -86,7 +86,6 @@ button {
   border-left: 4px solid #111;
   padding: 0.9rem 0.8rem;
   margin: 1rem auto 1.5rem auto;
-  display: flex;
   opacity: 1;
   font-weight: lighter;
   box-shadow: 0 0 0 rgba(0,0,0,0.2);
@@ -98,6 +97,10 @@ button {
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
   animation-duration: 1s;
+}
+
+.isSent img {
+  height: 32px;
 }
 
 @-webkit-keyframes fadeIn {
